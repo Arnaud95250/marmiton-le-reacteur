@@ -1,0 +1,136 @@
+/* Début des class global */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    /* background: rgb(246, 246, 231); */
+}
+
+header {
+    /* border: #000 solid 2px; */
+    line-height: 50px;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+main {
+    background-color: white;
+    border-radius: 5%;
+}
+
+footer {
+    /* border: rgb(18, 0, 121) solid 2px; */
+    margin-top: 10px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 12px;
+}
+
+p {
+    line-height: 22px;
+    margin-bottom: 20px;
+    color: #6C6C6C;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #393c6c;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 30px;
+    color: #f3735f;
+    /* margin-top: 70px; */
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* h3 {
+    font-size: 18px;
+    color: #393c6c;
+    line-height: 22px;
+    font-weight: bold;
+} */
+
+/* Fin des class global */
+/* Début css du header et le logo */
+.header_logo img {
+    margin-top: 20px;
+    width: 200px;
+    height: 31.47px;
+}
+
+hr {
+    border-top: 2px solid #F3735F;
+}
+
+/* Fin css du header et le logo */
+/* Début css main */
+.container {
+    width: 1024px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Fin css main */
+/* Début de la Boite titre de la recette */
+p {
+    font-size: 12px;
+    color: #6C6C6C;
+}
+
+/* Fin de la Boite titre de la recette */
+/* Début Boite sur la durée de la recette */
+.info_time {
+    background-color: #8A98B1;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 400px;
+    /* line-height: 45px; */
+}
+
+#info_time h2 {
+    color: rgb(255, 251, 251);
+    text-align: center;
+    line-height: 45px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* Fin Boite sur la durée de la recette */
+/* Début  Boite pour les images */
+.dim_img img {
+    width: 300px;
+    height: 300px;
+    padding: 20px 10px 20px 20px;
+    border-radius: 35px;
+}
+
+/* Fin  Boite sur la durée de la recette */
+/* Début des ul li */
+.ingredient {
+    text-align: left;
+    margin-left: 15px;
+    padding: 20px 10px 20px 20px;
+}
+
+.li_ingredient ul {
+    /* list-style: none; */
+    margin-left: 15px;
+    padding-left: 0;
+    color: #6C6C6C;
+}
+
+/* Fin des ul li */
+/* début boite préparation*/
+.preparation {
+    margin-top: 50px;
+    /* border: solid 2px; */
+    text-align: left;
+    padding: 0px 0px 30px 30px;
+}
+
+/* Fin boite préparation*/
